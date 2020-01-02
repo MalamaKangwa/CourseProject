@@ -1,0 +1,50 @@
+Docker Commands
+1. docker build [Options][URL]: the docker build commands allows you to build a docker image from specified location. This can be a [file_path] or [url].
+  
+2. docker pull [image]: The docker pull [image] command allows you to pull an image from the Docker Hub repository.
+3 . docker run [options][image]: This command allows you to run a command inside a specified container. 
+ 
+4. docker ps : The docker ps command list all of the containers currently running. The -a option allows you to check the status of each container.
+ 
+5. docker images: The docker images command lists all the images that are currently stored on the system. 
+ 
+6. docker exec -it [container] bash: The docker exec command 
+ 
+7. docker start [container_id]: This command starts a docker container.
+  
+8. docker stop [container]: This command stops a docker container.
+ 
+9. docker commit [container][image]: 
+ 
+10. docker login:
+ 
+
+Powershell Commands
+1.	Get-ChildItem: List all the files in the current directory.
+ 
+2.	Get Process: Lists the details of all the processes. 
+ 
+ 
+3.	Get-Service: List the details of every service.
+ 
+
+4.	Get-Process [name]: List the details of the specified process. 
+ 
+
+5.	New-Item [name] -ItemType [item type]: Created a new file in the current directory.  
+ 
+
+6.	Get-Command: List the details of all the commands stored on the system.
+ 
+ 
+7.	Get-Help [command]: Assists the user by providing details on a specified command.
+     
+
+8.	Get-Content: This command gets the content of the item at the specified location.
+ 
+
+9.	Start-Process [name]: Starts the specified process. 
+ 
+10.	Stop-Process [id]: Stops the specified process.
+ 
+
